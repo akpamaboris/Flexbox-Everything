@@ -1,38 +1,77 @@
-.App {
+.headerTop {
+  background: #252328;
+  padding: 5px;
+  color: #f0ede1;
+}
+
+.headerTopTitle {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  text-align: center;
+  padding: 60px;
+  background: #798696;
+  color: #f0ede1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sideLeft {
+  flex: 30%;
+  padding: 20px;
+  background-color: #949586;
+  color: #f0ede1;
+}
+.sideRight {
+  flex: 70%;
+  background-color: #757168;
+  color: #f0ede1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.footer {
+  background: #252328;
+  padding: 5px;
+  color: #f0ede1;
+  text-align: center;
+}
+
+.pictureAkpamaBoris {
+  width: 300px;
+}
+
+.textTitleUnderLine {
+  text-decoration: underline;
+}
+.textTitleAlign {
+  text-align: center;
+}
+
+.textTitleRightMainColor {
+  color: #92ad4e;
+}
+.flex-container {
+  margin: 0 auto;
+  background-color: #92ad4e;
+  width: 300px;
+  height: 300px;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+  height: 20px;
+  width: 90%;
+}
+/* ------------- MEDIA QUERY ----------- */
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
   }
 }
