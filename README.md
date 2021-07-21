@@ -7,7 +7,7 @@
 
 https://flexbox-everything.netlify.app/
   
-<h3<ins>About This Project</ins></h3>
+<h3><ins>About This Project</ins></h3>
   
 <p> The app was built with React and allows user to know more deeply Flexbox.
 I am open to any suggestions and i will keep improving it.</p>
