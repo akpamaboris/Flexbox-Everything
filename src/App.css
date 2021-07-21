@@ -68,6 +68,15 @@
   height: 20px;
   width: 90%;
 }
+
+a:visited {
+  color: #f1f1f1;
+}
+
+a:hover {
+  color: #fc5db1;
+}
+
 /* ------------- MEDIA QUERY ----------- */
 
 @media screen and (max-width: 700px) {
